@@ -4,7 +4,6 @@ import {
   FormControl,
   FormLabel,
   Input,
-  Button,
   Select,
   Option,
   Text,
@@ -22,7 +21,7 @@ export default function signUp() {
   const [state, setState] = useState('')
   const [address, setAddress] = useState('')
   const [ssn, setSsn] = useState('')
-  const [id, setId] = useState('')
+  const [stateId, setStateId] = useState('')
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -35,33 +34,33 @@ export default function signUp() {
       <form>
       <FormControl>
         <FormLabel>First name
-          <Input required id='' type='' placeholder='First name' onChange={(e) => setFirstName(e.target.value)} />
+          <Input required id='firstName' type='text' placeholder='First name' value={firstName} onChange={(e) => setFirstName(e.target.value)} />
         </FormLabel>        
         <FormLabel>Last name
-          <Input required id='' type='' placeholder='Last name' onChange={(e) => setLastName(e.target.value)} />
+          <Input required id='lastName' type='text' placeholder='Last name' value={lastName} onChange={(e) => setLastName(e.target.value)} />
         </FormLabel>        
         <FormLabel>Email address
-          <Input required id='' type='' placeholder='Email' onChange={(e) => setEmail(e.target.value)} />
+          <Input required id='email' type='email' placeholder='Email' value={email} onChange={(e) => setEmail(e.target.value)} />
         </FormLabel>        
         <FormLabel>Password
-          <Input required id='' type='' placeholder='Password' onChange={(e) => setPassword(e.target.value)} />
+          <Input required id='password' type='password' placeholder='Password' value={password} onChange={(e) => setPassword(e.target.value)} />
         </FormLabel>        
         <FormLabel>Confirm Password
-          <Input required id='' type='' placeholder='Confirm Password' onChange={(e) => setConfirmPassword(e.target.value)} />
+          <Input required id='confirmPassword' type='password' placeholder='Confirm Password' value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} />
         </FormLabel>       
         <FormLabel>Primary Address
-          <Input required id='' type='' placeholder='Primary Address' onChange={(e) => setAddress(e.target.value)}/>
+          <Input required id='address' type='text' placeholder='Primary Address' value={address} onChange={(e) => setAddress(e.target.value)}/>
         </FormLabel>        
         <FormLabel>State
-        <Select required id='' type='' placeholder='--' onChange={(e) => setState(e.target.value)} >
+        <Select required id='state' type='text' placeholder='--' value={state} onChange={(e) => setState(e.target.value)} >
           <option>CA</option>
         </Select>        
         </FormLabel>
         <FormLabel>SSN
-          <Input required id='' type='' placeholder='SSN' onChange={(e) => setSsn(e.target.value)} />
+          <Input required id='ssn' type='text' placeholder='SSN' value={ssn} onChange={(e) => setSsn(e.target.value)} />
         </FormLabel>        
         <FormLabel>ID Number/Driver ID
-          <Input required id='' type='' placeholder='State ID'/>
+          <Input required id='stateId' type='text' placeholder='State ID' value={stateId} onChange={(e) => setStateId(e.target.value)} />
         </FormLabel>        
       </FormControl>
       <button type='submit'>Sign Up</button>
