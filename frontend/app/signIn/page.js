@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import { useRouter } from 'next/navigation'
-import seeders from '../seeders'
+import seeders from '../sample-test-data/seeders'
 import {
   FormControl,
   FormLabel,
