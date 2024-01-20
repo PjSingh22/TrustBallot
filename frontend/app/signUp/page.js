@@ -15,7 +15,7 @@ export default function signUp() {
     <section>
       <h1>Sign Up</h1>
       <form>
-        
+
       </form>
     </section>
   )
