@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <nav>California TrustBallot</nav>
+        <nav className="nav-bar">California TrustBallot</nav>
         <Providers>{children}</Providers>
         </body>
     </html>

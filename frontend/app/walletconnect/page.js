@@ -1,7 +1,11 @@
 import React from 'react'
+import ConnectWalletButton from '../components/ConnectWalletButton'
+import './styles.css'
 
 export default function walletConnect() {
   return (
-    <div>walletConnect</div>
+    <div className='walletConnectPage'>
+      <ConnectWalletButton />
+    </div>
   )
 }

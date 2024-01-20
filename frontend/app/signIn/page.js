@@ -36,25 +36,25 @@ export default function signIn() {
     }
   }
 
-
-
   return (
     <section className='sign-in-form'>
-      <Text fontSize='4xl' color="gold">Sign In</Text>
-      <form onSubmit={handleSubmit}>
-        <FormControl>
-          <FormLabel htmlFor='id'>ID Number/Driver ID
-            <Input required id='id' type="text" placeholder='Type info here...' value={stateId} onChange={(e) => setStateId(e.target.value)} />
-          </FormLabel>
-          <FormLabel htmlFor='password'>Password
-            <Input required id='password' type="text" placeholder='Type info here...' value={password} onChange={(e) => setPassword(e.target.value)} />
-          </FormLabel>
-          <FormLabel htmlFor='ssn'>SSN
-            <Input required id='ssn' type="text" placeholder='Type info here...' value={ssn} onChange={(e) => setSsn(e.target.value)} />
-          </FormLabel>
-        </FormControl>
-        <button type='submit'>Sign In</button>
-      </form>
+      <div className='form-container'>
+        <Text fontSize='4xl' color="gold">Sign In</Text>
+        <form onSubmit={handleSubmit}>
+          <FormControl>
+            <FormLabel htmlFor='id'>ID Number/Driver ID
+              <Input required id='id' type="text" placeholder='Type info here...' value={stateId} onChange={(e) => setStateId(e.target.value)} />
+            </FormLabel>
+            <FormLabel htmlFor='password'>Password
+              <Input required id='password' type="text" placeholder='Type info here...' value={password} onChange={(e) => setPassword(e.target.value)} />
+            </FormLabel>
+            <FormLabel htmlFor='ssn'>SSN
+              <Input required id='ssn' type="text" placeholder='Type info here...' value={ssn} onChange={(e) => setSsn(e.target.value)} />
+            </FormLabel>
+          </FormControl>
+          <button type='submit'>Sign In</button>
+        </form>
+      </div>
     </section>
   )
 }
