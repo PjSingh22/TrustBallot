@@ -1,6 +1,15 @@
 "use client"
 import React, { useState } from 'react'
 import seeders from '../seeders'
+import {
+  FormControl,
+  FormLabel,
+  FormErrorMessage,
+  FormHelperText,
+  Input,
+  Text
+} from '@chakra-ui/react'
+import './signin.css'
 
 export default function signIn() {
   const [id, setId] = useState('')
@@ -10,28 +19,27 @@ export default function signIn() {
   console.log(id)
 
   const handleSubmit = (e) => {
-    e.preventDefault()
+    e.preventDefault();
 
   }
 
 
 
   return (
-    <section>
-      <h1>Sign In</h1>
+    <section className='sign-in-form'>
+      <Text fontSize='4xl' color="gold">Sign In</Text>
       <form onSubmit={handleSubmit}>
-        <label htmlFor='id'>
-          ID Number/Driver ID
-          <input id='id' type="text" placeholder='Type info here...' onChange={(e) => setId(e.target.value)} />
-        </label>
-        <label htmlFor='password'>
-          Password
-          <input id='password' type="password" placeholder='Type info here...' onChange={(e) => setPassword(e.target.value)} />
-        </label>
-        <label htmlFor='ssn'>
-          SSN
-          <input id='ssn' type="text" placeholder='Type info here...' onChange={(e) => setSsn(e.target.value)} />
-        </label>
+        <FormControl>
+          <FormLabel htmlFor='id'>ID Number/Driver ID
+            <Input required id='id' type="text" placeholder='Type info here...' onChange={(e) => setId(e.target.value)} />
+          </FormLabel>
+          <FormLabel htmlFor='password'>Password
+            <Input required id='password' type="password" placeholder='Type info here...' onChange={(e) => setPassword(e.target.value)} />
+          </FormLabel>
+          <FormLabel htmlFor='ssn'>SSN
+            <Input required id='ssn' type="password" placeholder='Type info here...' onChange={(e) => setSsn(e.target.value)} />
+          </FormLabel>
+        </FormControl>
         <button type='submit'>Sign In</button>
       </form>
     </section>
