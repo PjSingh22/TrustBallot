@@ -2,6 +2,9 @@
 import React, { useState } from "react";
 import { Radio, RadioGroup, Stack } from '@chakra-ui/react'
 import './testElections.css';
+import generalElectionAbi from '../../../backend/build/contracts/GeneralContract.json'
+import { GeneralContractAddress } from "../../config";
+import { ethers } from "ethers";
 
 export default function testElections() {
 
@@ -17,10 +20,12 @@ export default function testElections() {
     // console.log(stateSenate)
     // console.log(stateHouse)
 
-    console.log('hitting page')
+    const connectWallet = async () => {
+
+    }
 
     const handleTestElectionFormSubmit = () => {
-        
+
     }
 
     return (
