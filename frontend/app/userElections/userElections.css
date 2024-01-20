@@ -1,0 +1,14 @@
+.election-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.single-election {
+    border: 1px solid green;
+}
+
+.election-ballot {
+
+}
