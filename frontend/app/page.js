@@ -5,6 +5,7 @@ export default function Home() {
       <div className="routes">
         <a href="/signIn"><button>Sign In</button></a>
         <a href="/signUp"><button>Sign Up</button></a>
+        <a href="/userElections"><button>All User Elections</button></a>
       </div>
     </main>
   );

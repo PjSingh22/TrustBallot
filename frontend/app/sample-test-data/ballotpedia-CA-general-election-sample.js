@@ -4,6 +4,765 @@ const CA_general_data = {
         "election_date": "2024-11-05",
         "districts": [
             {
+                "id": 22,
+                "name": "California District 1",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63544,
+                        "office": {
+                            "id": 4822,
+                            "name": "U.S. House California District 1",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 1st Congressional District",
+                            "url": "https://ballotpedia.org/California's_1st_Congressional_District",
+                            "office_district": 22
+                        },
+                        "office_district": 22,
+                        "url": "https://ballotpedia.org/California%27s_1st_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 99347,
+                                "race": 63544,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 338206,
+                                    "name": "Jeffrey Lavin",
+                                    "first_name": "Jeffrey",
+                                    "last_name": "Lavin",
+                                    "url": "https://ballotpedia.org/Jeffrey_Lavin"
+                                }
+                            },
+                            {
+                                "id": 176396,
+                                "race": 63544,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 398577,
+                                    "name": "Aaron Webster",
+                                    "first_name": "Aaron",
+                                    "last_name": "Webster",
+                                    "url": "https://ballotpedia.org/Aaron_Webster"
+                                }
+                            },
+                            {
+                                "id": 176029,
+                                "race": 63544,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 5,
+                                        "name": "Independent",
+                                        "url": "https://ballotpedia.org/Independent"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 398317,
+                                    "name": "Trenten Phillips",
+                                    "first_name": "Trenten",
+                                    "last_name": "Phillips",
+                                    "url": "https://ballotpedia.org/Trenten_Phillips"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 26,
+                "name": "California District 5",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63619,
+                        "office": {
+                            "id": 6404,
+                            "name": "U.S. House California District 5",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 5th Congressional District",
+                            "url": "https://ballotpedia.org/California's_5th_Congressional_District",
+                            "office_district": 26
+                        },
+                        "office_district": 26,
+                        "url": "https://ballotpedia.org/California's_5th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 176981,
+                                "race": 63619,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 398809,
+                                    "name": "Jason Kassel",
+                                    "first_name": "Jason",
+                                    "last_name": "Kassel",
+                                    "url": "https://ballotpedia.org/Jason_Kassel"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 27,
+                "name": "California District 6",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63620,
+                        "office": {
+                            "id": 17941,
+                            "name": "U.S. House California District 6",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 6th Congressional District",
+                            "url": "https://ballotpedia.org/California's_6th_Congressional_District",
+                            "office_district": 27
+                        },
+                        "office_district": 27,
+                        "url": "https://ballotpedia.org/California's_6th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": null
+                    }
+                ]
+            },
+            {
+                "id": 30,
+                "name": "California District 9",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63623,
+                        "office": {
+                            "id": 1295,
+                            "name": "U.S. House California District 9",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 9th Congressional District",
+                            "url": "https://ballotpedia.org/California's_9th_Congressional_District",
+                            "office_district": 30
+                        },
+                        "office_district": 30,
+                        "url": "https://ballotpedia.org/California's_9th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 180383,
+                                "race": 63623,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 1,
+                                        "name": "Republican Party",
+                                        "url": "https://ballotpedia.org/Republican_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 400912,
+                                    "name": "Brett Dood",
+                                    "first_name": "Brett",
+                                    "last_name": "Dood",
+                                    "url": "https://ballotpedia.org/Brett_Dood"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 32,
+                "name": "California District 11",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63625,
+                        "office": {
+                            "id": 6338,
+                            "name": "U.S. House California District 11",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 11th Congressional District",
+                            "url": "https://ballotpedia.org/California's_11th_Congressional_District",
+                            "office_district": 32
+                        },
+                        "office_district": 32,
+                        "url": "https://ballotpedia.org/California's_11th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 175928,
+                                "race": 63625,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 3,
+                                        "name": "Libertarian Party",
+                                        "url": "https://ballotpedia.org/Libertarian_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 398167,
+                                    "name": "Elijah Lewis Blue",
+                                    "first_name": "Elijah",
+                                    "last_name": "Blue",
+                                    "url": "https://ballotpedia.org/Elijah_Lewis_Blue"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 33,
+                "name": "California District 12",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63626,
+                        "office": {
+                            "id": 11769,
+                            "name": "U.S. House California District 12",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 12th Congressional District",
+                            "url": "https://ballotpedia.org/California's_12th_Congressional_District",
+                            "office_district": 33
+                        },
+                        "office_district": 33,
+                        "url": "https://ballotpedia.org/California's_12th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 182750,
+                                "race": 63626,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 337234,
+                                    "name": "Denard Ingram",
+                                    "first_name": "Denard",
+                                    "last_name": "Ingram",
+                                    "url": "https://ballotpedia.org/Denard_Ingram"
+                                }
+                            },
+                            {
+                                "id": 180773,
+                                "race": 63626,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 333366,
+                                    "name": "Lateefah Simon",
+                                    "first_name": "Lateefah",
+                                    "last_name": "Simon",
+                                    "url": "https://ballotpedia.org/Lateefah_Simon"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 34,
+                "name": "California District 13",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63627,
+                        "office": {
+                            "id": 6655,
+                            "name": "U.S. House California District 13",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 13th Congressional District",
+                            "url": "https://ballotpedia.org/California's_13th_Congressional_District",
+                            "office_district": 34
+                        },
+                        "office_district": 34,
+                        "url": "https://ballotpedia.org/California's_13th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 180380,
+                                "race": 63627,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 314152,
+                                    "name": "Phil Arballo",
+                                    "first_name": "Phil",
+                                    "last_name": "Arballo",
+                                    "url": "https://ballotpedia.org/Phil_Arballo"
+                                }
+                            },
+                            {
+                                "id": 176631,
+                                "race": 63627,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 398727,
+                                    "name": "Brad Boyd",
+                                    "first_name": "Brad",
+                                    "last_name": "Boyd",
+                                    "url": "https://ballotpedia.org/Brad_Boyd_(California)"
+                                }
+                            },
+                            {
+                                "id": 178380,
+                                "race": 63627,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 336666,
+                                    "name": "Angelina Sigala",
+                                    "first_name": "Angelina",
+                                    "last_name": "Sigala",
+                                    "url": "https://ballotpedia.org/Angelina_Sigala"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 39,
+                "name": "California District 18",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63632,
+                        "office": {
+                            "id": 877,
+                            "name": "U.S. House California District 18",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 18th Congressional District",
+                            "url": "https://ballotpedia.org/California's_18th_Congressional_District",
+                            "office_district": 39
+                        },
+                        "office_district": 39,
+                        "url": "https://ballotpedia.org/California's_18th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 180767,
+                                "race": 63632,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 401151,
+                                    "name": "Luele Kifle",
+                                    "first_name": "Luele",
+                                    "last_name": "Kifle",
+                                    "url": "https://ballotpedia.org/Luele_Kifle"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 41,
+                "name": "California District 20",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63634,
+                        "office": {
+                            "id": 1878,
+                            "name": "U.S. House California District 20",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 20th Congressional District",
+                            "url": "https://ballotpedia.org/California's_20th_Congressional_District",
+                            "office_district": 41
+                        },
+                        "office_district": 41,
+                        "url": "https://ballotpedia.org/California's_20th_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 180274,
+                                "race": 63634,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 400835,
+                                    "name": "Johnathon Burrows",
+                                    "first_name": "Johnathon",
+                                    "last_name": "Burrows",
+                                    "url": "https://ballotpedia.org/Johnathon_Burrows"
+                                }
+                            },
+                            {
+                                "id": 179949,
+                                "race": 63634,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 400722,
+                                    "name": "Andy Morales",
+                                    "first_name": "Andy",
+                                    "last_name": "Morales",
+                                    "url": "https://ballotpedia.org/Andy_Morales"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 44,
+                "name": "California District 23",
+                "type": "Congress",
+                "ballot_measures": null,
+                "races": [
+                    {
+                        "id": 63637,
+                        "office": {
+                            "id": 2800,
+                            "name": "U.S. House California District 23",
+                            "level": "Federal",
+                            "branch": "Legislative",
+                            "chamber": "Lower",
+                            "is_partisan": "Partisan all",
+                            "type": "Representative",
+                            "seat": "California's 23rd Congressional District",
+                            "url": "https://ballotpedia.org/California's_23rd_Congressional_District",
+                            "office_district": 44
+                        },
+                        "office_district": 44,
+                        "url": "https://ballotpedia.org/California's_23rd_Congressional_District_election,_2024",
+                        "number_of_seats": 1,
+                        "year": 2024,
+                        "race_type": "Regular",
+                        "is_marquee": false,
+                        "office_position": null,
+                        "is_ranked_choice": false,
+                        "results_certified": false,
+                        "stage_type": "General",
+                        "stage_party": null,
+                        "candidates": [
+                            {
+                                "id": 180681,
+                                "race": 63637,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 401101,
+                                    "name": "Miguel Arceo",
+                                    "first_name": "Miguel",
+                                    "last_name": "Arceo",
+                                    "url": "https://ballotpedia.org/Miguel_Arceo"
+                                }
+                            },
+                            {
+                                "id": 178181,
+                                "race": 63637,
+                                "stage_party": null,
+                                "party_affiliation": [
+                                    {
+                                        "id": 2,
+                                        "name": "Democratic Party",
+                                        "url": "https://ballotpedia.org/Democratic_Party"
+                                    }
+                                ],
+                                "is_incumbent": false,
+                                "is_write_in": false,
+                                "withdrew_still_on_ballot": false,
+                                "cand_status": "Candidacy Declared",
+                                "votes_for_cand": null,
+                                "ranked_choice_voting_rounds": [],
+                                "person": {
+                                    "id": 399896,
+                                    "name": "Matthew Favro",
+                                    "first_name": "Matthew",
+                                    "last_name": "Favro",
+                                    "url": "https://ballotpedia.org/Matthew_Favro"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "id": 45,
                 "name": "California District 24",
                 "type": "Congress",
@@ -1658,1013 +2417,6 @@ const CA_general_data = {
                         },
                         "office_district": 68,
                         "url": "https://ballotpedia.org/California's_47th_Congressional_District_election,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": null
-                    }
-                ]
-            },
-            {
-                "id": 72,
-                "name": "California District 51",
-                "type": "Congress",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 63665,
-                        "office": {
-                            "id": 12426,
-                            "name": "U.S. House California District 51",
-                            "level": "Federal",
-                            "branch": "Legislative",
-                            "chamber": "Lower",
-                            "is_partisan": "Partisan all",
-                            "type": "Representative",
-                            "seat": "California's 51st Congressional District",
-                            "url": "https://ballotpedia.org/California's_51st_Congressional_District",
-                            "office_district": 72
-                        },
-                        "office_district": 72,
-                        "url": "https://ballotpedia.org/California's_51st_Congressional_District_election,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": [
-                            {
-                                "id": 178674,
-                                "race": 63665,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 343091,
-                                    "name": "Stan Caplan",
-                                    "first_name": "Stan",
-                                    "last_name": "Caplan",
-                                    "url": "https://ballotpedia.org/Stan_Caplan"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 516,
-                "name": "California",
-                "type": "State",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 62476,
-                        "office": {
-                            "id": 154,
-                            "name": "U.S. Senate California",
-                            "level": "Federal",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "California",
-                            "url": "https://ballotpedia.org/List_of_United_States_Senators_from_California",
-                            "office_district": 516
-                        },
-                        "office_district": 516,
-                        "url": "https://ballotpedia.org/United_States_Senate_election_in_California,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": [
-                            {
-                                "id": 140736,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 369158,
-                                    "name": "Jeremy Fennell",
-                                    "first_name": "Jeremy",
-                                    "last_name": "Fennell",
-                                    "url": "https://ballotpedia.org/Jeremy_Fennell"
-                                }
-                            },
-                            {
-                                "id": 130262,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 361299,
-                                    "name": "Carson Franklin Jr.",
-                                    "first_name": "Carson",
-                                    "last_name": "Franklin",
-                                    "url": "https://ballotpedia.org/Carson_Franklin_Jr."
-                                }
-                            },
-                            {
-                                "id": 180386,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 3288,
-                                    "name": "Barbara Lee",
-                                    "first_name": "Barbara",
-                                    "last_name": "Lee",
-                                    "url": "https://ballotpedia.org/Barbara_Lee_(California)"
-                                }
-                            },
-                            {
-                                "id": 194536,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 287310,
-                                    "name": "Douglas Howard Pierce",
-                                    "first_name": "Douglas",
-                                    "last_name": "Pierce",
-                                    "url": "https://ballotpedia.org/Douglas_Howard_Pierce"
-                                }
-                            },
-                            {
-                                "id": 178176,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 102420,
-                                    "name": "Katie Porter",
-                                    "first_name": "Katie",
-                                    "last_name": "Porter",
-                                    "url": "https://ballotpedia.org/Katie_Porter"
-                                }
-                            },
-                            {
-                                "id": 183074,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 45017,
-                                    "name": "Raji Rab",
-                                    "first_name": "Raji",
-                                    "last_name": "Rab",
-                                    "url": "https://ballotpedia.org/Raji_Rab"
-                                }
-                            },
-                            {
-                                "id": 98849,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 337816,
-                                    "name": "Jessica Resendez",
-                                    "first_name": "Jessica",
-                                    "last_name": "Resendez",
-                                    "url": "https://ballotpedia.org/Jessica_Resendez"
-                                }
-                            },
-                            {
-                                "id": 178520,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 345,
-                                    "name": "Adam Schiff",
-                                    "first_name": "Adam",
-                                    "last_name": "Schiff",
-                                    "url": "https://ballotpedia.org/Adam_Schiff"
-                                }
-                            },
-                            {
-                                "id": 183050,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 297416,
-                                    "name": "James P. Bradley",
-                                    "first_name": "James",
-                                    "last_name": "Bradley",
-                                    "url": "https://ballotpedia.org/James_P._Bradley_(California)"
-                                }
-                            },
-                            {
-                                "id": 182369,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 402710,
-                                    "name": "Denice Gary-Pandol",
-                                    "first_name": "Denice",
-                                    "last_name": "Gary-Pandol",
-                                    "url": "https://ballotpedia.org/Denice_Gary-Pandol"
-                                }
-                            },
-                            {
-                                "id": 178177,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 399894,
-                                    "name": "Zakaria Kortam",
-                                    "first_name": "Zakaria",
-                                    "last_name": "Kortam",
-                                    "url": "https://ballotpedia.org/Zakaria_Kortam"
-                                }
-                            },
-                            {
-                                "id": 178370,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 399987,
-                                    "name": "Roxanne Lawler",
-                                    "first_name": "Roxanne",
-                                    "last_name": "Lawler",
-                                    "url": "https://ballotpedia.org/Roxanne_Lawler"
-                                }
-                            },
-                            {
-                                "id": 175978,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 44413,
-                                    "name": "Peter Yuan Liu",
-                                    "first_name": "Peter",
-                                    "last_name": "Liu",
-                                    "url": "https://ballotpedia.org/Peter_Yuan_Liu"
-                                }
-                            },
-                            {
-                                "id": 145834,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 372656,
-                                    "name": "Barack Obama Mandela",
-                                    "first_name": "Barack",
-                                    "last_name": "Mandela",
-                                    "url": "https://ballotpedia.org/Barack_Obama_Mandela"
-                                }
-                            },
-                            {
-                                "id": 180131,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 1,
-                                        "name": "Republican Party",
-                                        "url": "https://ballotpedia.org/Republican_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 400758,
-                                    "name": "John Pappenheim",
-                                    "first_name": "John",
-                                    "last_name": "Pappenheim",
-                                    "url": "https://ballotpedia.org/John_Pappenheim"
-                                }
-                            },
-                            {
-                                "id": 180273,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 4,
-                                        "name": "Green Party",
-                                        "url": "https://ballotpedia.org/Green_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 400834,
-                                    "name": "Paul Anderson",
-                                    "first_name": "Paul",
-                                    "last_name": "Anderson",
-                                    "url": "https://ballotpedia.org/Paul_Anderson_(California)"
-                                }
-                            },
-                            {
-                                "id": 180771,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 5,
-                                        "name": "Independent",
-                                        "url": "https://ballotpedia.org/Independent"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 401153,
-                                    "name": "Dana Bobbitt",
-                                    "first_name": "Dana",
-                                    "last_name": "Bobbitt",
-                                    "url": "https://ballotpedia.org/Dana_Bobbitt"
-                                }
-                            },
-                            {
-                                "id": 192279,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 5,
-                                        "name": "Independent",
-                                        "url": "https://ballotpedia.org/Independent"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 496705,
-                                    "name": "Frank Ferreira",
-                                    "first_name": "Frank",
-                                    "last_name": "Ferreira",
-                                    "url": "https://ballotpedia.org/Frank_Ferreira"
-                                }
-                            },
-                            {
-                                "id": 180789,
-                                "race": 62476,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 25023,
-                                        "name": "Vienmerisce Veittemeignzce USA",
-                                        "url": null
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 337240,
-                                    "name": "Fepbrina Keivaulqe Autiameineire",
-                                    "first_name": "Fepbrina",
-                                    "last_name": "Keivaulqe Autiameineire",
-                                    "url": "https://ballotpedia.org/Fepbrina_Keivaulqe_Autiameineire"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 699,
-                "name": "California State Senate District 5",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65000,
-                        "office": {
-                            "id": 10786,
-                            "name": "California State Senate District 5",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 5",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_5",
-                            "office_district": 699
-                        },
-                        "office_district": 699,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": null
-                    }
-                ]
-            },
-            {
-                "id": 701,
-                "name": "California State Senate District 7",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65001,
-                        "office": {
-                            "id": 7969,
-                            "name": "California State Senate District 7",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 7",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_7",
-                            "office_district": 701
-                        },
-                        "office_district": 701,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": [
-                            {
-                                "id": 194620,
-                                "race": 65001,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 50066,
-                                    "name": "Sandré Swanson",
-                                    "first_name": "Sandré",
-                                    "last_name": "Swanson",
-                                    "url": "https://ballotpedia.org/Sandré_Swanson"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 713,
-                "name": "California State Senate District 19",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65007,
-                        "office": {
-                            "id": 5085,
-                            "name": "California State Senate District 19",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 19",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_19",
-                            "office_district": 713
-                        },
-                        "office_district": 713,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": null
-                    }
-                ]
-            },
-            {
-                "id": 717,
-                "name": "California State Senate District 23",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65009,
-                        "office": {
-                            "id": 10625,
-                            "name": "California State Senate District 23",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 23",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_23",
-                            "office_district": 717
-                        },
-                        "office_district": 717,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": [
-                            {
-                                "id": 178278,
-                                "race": 65009,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 321777,
-                                    "name": "Kipp Mueller",
-                                    "first_name": "Kipp",
-                                    "last_name": "Mueller",
-                                    "url": "https://ballotpedia.org/Kipp_Mueller"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 719,
-                "name": "California State Senate District 25",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65010,
-                        "office": {
-                            "id": 3787,
-                            "name": "California State Senate District 25",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 25",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_25",
-                            "office_district": 719
-                        },
-                        "office_district": 719,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": [
-                            {
-                                "id": 180355,
-                                "race": 65010,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 323966,
-                                    "name": "John Harabedian",
-                                    "first_name": "John",
-                                    "last_name": "Harabedian",
-                                    "url": "https://ballotpedia.org/John_Harabedian"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 723,
-                "name": "California State Senate District 29",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65012,
-                        "office": {
-                            "id": 3784,
-                            "name": "California State Senate District 29",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 29",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_29",
-                            "office_district": 723
-                        },
-                        "office_district": 723,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": [
-                            {
-                                "id": 176458,
-                                "race": 65012,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 16995,
-                                    "name": "Eloise Gomez Reyes",
-                                    "first_name": "Eloise",
-                                    "last_name": "Reyes",
-                                    "url": "https://ballotpedia.org/Eloise_Gomez_Reyes"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 725,
-                "name": "California State Senate District 31",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65013,
-                        "office": {
-                            "id": 8319,
-                            "name": "California State Senate District 31",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 31",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_31",
-                            "office_district": 725
-                        },
-                        "office_district": 725,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
-                        "number_of_seats": 1,
-                        "year": 2024,
-                        "race_type": "Regular",
-                        "is_marquee": false,
-                        "office_position": null,
-                        "is_ranked_choice": false,
-                        "results_certified": false,
-                        "stage_type": "General",
-                        "stage_party": null,
-                        "candidates": [
-                            {
-                                "id": 176891,
-                                "race": 65013,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 49649,
-                                    "name": "Sabrina Cervantes",
-                                    "first_name": "Sabrina",
-                                    "last_name": "Cervantes",
-                                    "url": "https://ballotpedia.org/Sabrina_Cervantes"
-                                }
-                            },
-                            {
-                                "id": 176453,
-                                "race": 65013,
-                                "stage_party": null,
-                                "party_affiliation": [
-                                    {
-                                        "id": 2,
-                                        "name": "Democratic Party",
-                                        "url": "https://ballotpedia.org/Democratic_Party"
-                                    }
-                                ],
-                                "is_incumbent": false,
-                                "is_write_in": false,
-                                "withdrew_still_on_ballot": false,
-                                "cand_status": "Candidacy Declared",
-                                "votes_for_cand": null,
-                                "ranked_choice_voting_rounds": [],
-                                "person": {
-                                    "id": 2076,
-                                    "name": "Angelov Farooq",
-                                    "first_name": "Angelov",
-                                    "last_name": "Farooq",
-                                    "url": "https://ballotpedia.org/Angelov_Farooq"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "id": 727,
-                "name": "California State Senate District 33",
-                "type": "State Legislative (Upper)",
-                "ballot_measures": null,
-                "races": [
-                    {
-                        "id": 65014,
-                        "office": {
-                            "id": 13358,
-                            "name": "California State Senate District 33",
-                            "level": "State",
-                            "branch": "Legislative",
-                            "chamber": "Upper",
-                            "is_partisan": "Partisan all",
-                            "type": "Senator",
-                            "seat": "District 33",
-                            "url": "https://ballotpedia.org/California_State_Senate_District_33",
-                            "office_district": 727
-                        },
-                        "office_district": 727,
-                        "url": "https://ballotpedia.org/California_State_Senate_elections,_2024",
                         "number_of_seats": 1,
                         "year": 2024,
                         "race_type": "Regular",
