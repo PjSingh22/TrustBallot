@@ -1,14 +1,17 @@
 "use client"
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from 'next/navigation'
 import { Radio, RadioGroup, Stack } from '@chakra-ui/react'
 import './testElections.css';
-import generalElectionAbi from '../../../backend/build/contracts/GeneralContract.json'
-import { GeneralContractAddress } from "../../config";
+// import generalElectionAbi from '../../../backend/build/contracts/GeneralContract.json'
+import primaryElectionAbi from '../../../backend/build/contracts/PrimaryContract.json'
+import { PrimaryContractAddress } from "../../config"
 import { ethers } from "ethers";
-import { useUserContext } from "../components/context";
+import { useUserContext } from "../../context";
 
 export default function testElections() {
-    const {username, correctNetwork, setCorrectNetwork, isUserLoggedIn, setIsUserLoggedIn, currentAccount, setCurrentAccount } = useUserContext();
+    const {username, correctNetwork, setCorrectNetwork, isUserLoggedIn, setIsUserLoggedIn, currentAccount, setCurrentAccount, setVotes, votes, connectWallet } = useUserContext();
+    const router = useRouter();
     const [USSenate, setUSSenate] = useState('')
     const [USHouse, setUSHouse] = useState('')
     const [congress, setCongress] = useState('')
@@ -21,13 +24,79 @@ export default function testElections() {
     // console.log(stateSenate)
     // console.log(stateHouse)
 
-    const handleTestElectionFormSubmit = () => {
+    useEffect(() => {
+      connectWallet()
+    }, [])
 
+    const addVote = async (e) => {
+        e.preventDefault()
+        const user = JSON.parse(sessionStorage.getItem('user'))
+
+        const _congressionalCandidateId = Number(congress.split(' ')[0])
+        const _lowerStateLegislativeCandidateId = Number(USSenate.split(' ')[0])
+        const _stateCandidateId = Number(stateHouse.split(' ')[0])
+        const _upperStateLegislativeCandidateId = Number(stateSenate.split(' ')[0])
+        const _congressionalCandidate = congress.split(' ')[1] + ' ' + congress.split(' ')[2]
+        const _stateCandidate = stateHouse.split(' ')[1] + ' ' + stateHouse.split(' ')[2]
+        const _upperStateLegislativeCandidate = stateSenate.split(' ')[1] + ' ' + stateSenate.split(' ')[2]
+        const _lowerStateLegislativeCandidate = USSenate.split(' ')[1] + ' ' + USSenate.split(' ')[2]
+        const _voterId = Number(user.id)
+
+        const vote = {
+          _congressionalCandidateId,
+          _lowerStateLegislativeCandidateId,
+          _stateCandidateId,
+          _upperStateLegislativeCandidateId,
+          _congressionalCandidate,
+          _stateCandidate,
+          _upperStateLegislativeCandidate,
+          _lowerStateLegislativeCandidate,
+          _voterId
+        }
+
+
+        try {
+          const { ethereum } = window;
+          if (ethereum) {
+            const provider = new ethers.providers.Web3Provider(ethereum);
+            const signer = provider.getSigner();
+            const contract = new ethers.Contract(PrimaryContractAddress, primaryElectionAbi.abi, signer);
+            console.log("", contract)
+            contract.addVote(_voterId, _congressionalCandidateId, _stateCandidateId, _upperStateLegislativeCandidateId, _lowerStateLegislativeCandidateId, _congressionalCandidate, _stateCandidate, _upperStateLegislativeCandidate, _lowerStateLegislativeCandidate).then(res => {
+              console.log(res)
+              setVotes([...votes, vote])
+            }).catch(err => {
+              console.log(err)
+            })
+
+            // await transaction.wait();
+            // console.log('Transaction Mined')
+            // console.log(transaction)
+            console.log('Vote added')
+            // router.push('/electionsDashboard')
+          } else {
+            console.log('Ethereum object does not exist')
+          }
+        } catch (error) {
+          console.log("OOF", error)
+        }
     }
 
+    const handleTestElectionFormSubmit = (e) => {
+      e.preventDefault()
+      addVote()
+    }
+
+    if (!currentAccount) {
+      return (
+        <div>
+          <h1>You are not logged in</h1>
+        </div>
+      )
+    }
     return (
         <>
-            <form onSubmit={handleTestElectionFormSubmit}>
+            <form onSubmit={addVote}>
                 <fieldset>
                     <legend>Select a US Senate</legend>
                     <div>
