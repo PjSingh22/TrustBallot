@@ -35,7 +35,15 @@ export default function electionsDashboard() {
     <div className='dashboard'>
       <h1>Elections Dashboard</h1>
       <div className="previous-elections">
-        No Previous Elections
+        Previous Elections
+        <div>
+          <div>
+            <p>2020 General Election</p>
+          </div>
+          <div>
+            <p>2020 Primary Election</p>
+          </div>
+        </div>
       </div>
       {votes.length ?
         (<p className='already-voted'>
@@ -44,9 +52,9 @@ export default function electionsDashboard() {
         (<div className="current-elections">
         <a href='/testElections'>Vote for current election</a>
       </div>)}
-      <div className="future-elections">
+      {/* <div className="future-elections">
         Currently These Elections are not open for voting
-      </div>
+      </div> */}
       <p className='previous-votes'>Previous votes</p>
       <div className='votes'>
         {votes.map((vote) => {
