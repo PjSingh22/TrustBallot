@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19;
+pragma solidity >=0.4.22 <0.9.0;
 // primary election contract
 contract PrimaryContract {
   event AddVote(address recipient, uint voteId);
