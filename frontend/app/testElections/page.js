@@ -8,22 +8,18 @@ import { ethers } from "ethers";
 import { useUserContext } from "../components/context";
 
 export default function testElections() {
-    const { correctNetwork, setCorrectNetwork, isUserLoggedIn, setIsUserLoggedIn, currentAccount, setCurrentAccount } = useUserContext();
+    const {username, correctNetwork, setCorrectNetwork, isUserLoggedIn, setIsUserLoggedIn, currentAccount, setCurrentAccount } = useUserContext();
     const [USSenate, setUSSenate] = useState('')
     const [USHouse, setUSHouse] = useState('')
     const [congress, setCongress] = useState('')
     const [stateSenate, setStateSenate] = useState('')
     const [stateHouse, setStateHouse] = useState('')
 
-    console.log(USSenate)
+    // console.log(USSenate)
     // console.log(USHouse)
     // console.log(congress)
     // console.log(stateSenate)
     // console.log(stateHouse)
-
-    const connectWallet = async () => {
-
-    }
 
     const handleTestElectionFormSubmit = () => {
 
