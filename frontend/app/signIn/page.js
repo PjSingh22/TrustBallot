@@ -29,11 +29,9 @@ export default function signIn() {
         sessionStorage.setItem('user', JSON.stringify(seeders[i]))
         router.push('/walletconnect')
         return
-      } else {
-        alert('Incorrect ID, Password, or SSN')
-        return
-      }
+      } 
     }
+    return alert('Incorrect ID, Password, or SSN')
   }
 
   return (

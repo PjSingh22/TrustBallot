@@ -12,10 +12,15 @@ export default function NavBar() {
     sessionStorage.clear();
     router.push('/')
   }
+
+  const handleHome = () => {
+    router.push('/')
+  }
+
   return (
     <nav className="nav-bar">
       <h1>California TrustBallot</h1>
-      {isUserLoggedIn ? <button className="logout" onClick={handleLogout}>Log Out</button> : null}
+      {isUserLoggedIn ? <button className="logout" onClick={handleLogout}>Log Out</button> : <button className='logout' onClick={handleHome}>Go Home</button>}
     </nav>
   )
 }

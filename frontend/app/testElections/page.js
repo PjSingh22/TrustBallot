@@ -98,7 +98,7 @@ export default function testElections() {
       e.preventDefault()
       addVote()
     }
-    //************ */ ADD back in afterwards ************
+    
     // if (!currentAccount) {
     //   return (
     //     <div>
