@@ -29,17 +29,29 @@ export default function electionsDashboard() {
     }
   }
 
-  if(votes.length) {
-    console.log("votes", Object.values(votes[0]))
-  }
+
   return (
     <div>
       <h1>Elections Dashboard</h1>
+      <div className="previous-elections">
+        No Previous Elections
+      </div>
+      {votes.length ? 
+        (<>
+          You have already voted for the current election
+        </>) :
+        (<div className="current-elections">
+        <a href='/testElections'>Vote for current elections</a>
+      </div>)}
+      <div className="future-elections">
+        Currently These Elections are not open for voting
+      </div>
       <div className='votes'>
         {votes.map((vote) => {
           vote = Object.values(vote)
           return (
             <div>
+              <h1>Vote for current election</h1>
               <p>State Candidate: {vote[6]}</p>
               <p>Upper State Legislative Candidate: {vote[7]}</p>
               <p>Lower State Legislative Candidate: {vote[8]}</p>

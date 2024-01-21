@@ -94,14 +94,14 @@ export default function testElections() {
       e.preventDefault()
       addVote()
     }
-
-    if (!currentAccount) {
-      return (
-        <div>
-          <h1>You are not logged in</h1>
-        </div>
-      )
-    }
+    //************ */ ADD back in afterwards ************
+    // if (!currentAccount) {
+    //   return (
+    //     <div>
+    //       <h1>You are not logged in</h1>
+    //     </div>
+    //   )
+    // }
     return (
         <>
             <form onSubmit={addVote}>

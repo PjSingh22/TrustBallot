@@ -1,6 +1,7 @@
 "use client";
 import React, { createContext, useState } from 'react';
 import { useRouter } from 'next/navigation'
+import { Providers } from './app/providers';
 
 // Create the context
 export const UserContext = createContext();
@@ -32,7 +33,7 @@ export const UserProvider = ({ children }) => {
       console.log("connected to account", accounts[0]);
       setIsUserLoggedIn(true);
       setCurrentAccount(accounts[0]);
-      router.push('/testElections')
+      // router.push('/electionsDashboard'
     } catch (error) {
       console.log(error)
     }
