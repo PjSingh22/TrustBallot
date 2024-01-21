@@ -62,18 +62,17 @@ export default function testElections() {
             const signer = provider.getSigner();
             const contract = new ethers.Contract(PrimaryContractAddress, primaryElectionAbi.abi, signer);
             console.log("", contract)
-            contract.addVote(_voterId, _congressionalCandidateId, _stateCandidateId, _upperStateLegislativeCandidateId, _lowerStateLegislativeCandidateId, _congressionalCandidate, _stateCandidate, _upperStateLegislativeCandidate, _lowerStateLegislativeCandidate).then(res => {
+            const transaction = contract.addVote(_voterId, _congressionalCandidateId, _stateCandidateId, _upperStateLegislativeCandidateId, _lowerStateLegislativeCandidateId, _congressionalCandidate, _stateCandidate, _upperStateLegislativeCandidate, _lowerStateLegislativeCandidate).then(res => {
               console.log(res)
               setVotes([...votes, vote])
             }).catch(err => {
               console.log(err)
             })
-
             // await transaction.wait();
             // console.log('Transaction Mined')
             // console.log(transaction)
             console.log('Vote added')
-            // router.push('/electionsDashboard')
+            router.push('/electionsDashboard')
           } else {
             console.log('Ethereum object does not exist')
           }
