@@ -1,15 +1,52 @@
 "use client";
-import React from 'react'
+import React, { useEffect } from 'react'
 import { useUserContext } from '../../context';
+import primaryElectionAbi from '../../../backend/build/contracts/PrimaryContract.json'
+import { PrimaryContractAddress } from "../../config"
+import { ethers } from "ethers";
 
 export default function electionsDashboard() {
-  const { votes } = useUserContext();
-  console.log(votes)
+  const { votes, setVotes } = useUserContext();
+
+  useEffect(() => {
+    getMyVotes()
+  }, []);
+
+  const getMyVotes = async () => {
+    try {
+      const { ethereum } = window;
+      if (ethereum) {
+        const provider = new ethers.providers.Web3Provider(ethereum);
+        const signer = provider.getSigner();
+        const contract = new ethers.Contract(PrimaryContractAddress, primaryElectionAbi.abi, signer);
+        const votes = await contract.getMyVotes();
+        setVotes(votes)
+      } else {
+        console.log("Ethereum object doesn't exist!")
+      }
+    } catch (error) {
+      console.log(error)
+    }
+  }
+
+  if(votes.length) {
+    console.log("votes", Object.values(votes[0]))
+  }
   return (
     <div>
       <h1>Elections Dashboard</h1>
       <div className='votes'>
-
+        {votes.map((vote) => {
+          vote = Object.values(vote)
+          return (
+            <div>
+              <p>State Candidate: {vote[6]}</p>
+              <p>Upper State Legislative Candidate: {vote[7]}</p>
+              <p>Lower State Legislative Candidate: {vote[8]}</p>
+              <p>Congressional Candidate: {vote[9]}</p>
+            </div>
+          )
+        })}
       </div>
     </div>
   )
