@@ -39,6 +39,10 @@ export default function testElections() {
 
     const addVote = async (e) => {
         e.preventDefault()
+        if (USSenate === '' || USHouse === '' || congress === '' || stateSenate === '' || stateHouse === '') {
+          alert('Please select a candidate for each position')
+          return
+        }
         const user = JSON.parse(sessionStorage.getItem('user'))
 
         const _congressionalCandidateId = Number(congress.split(' ')[0])
@@ -103,10 +107,10 @@ export default function testElections() {
     //   )
     // }
     return (
-        <>
+        <div className="testBallot">
             <form onSubmit={addVote}>
                 <fieldset>
-                    <legend>Select a US Senate</legend>
+                    <legend>Select a US Senate:</legend>
                     <div>
                         <input onChange={(e) => {
                             setUSSenate(e.target.value)
@@ -125,7 +129,7 @@ export default function testElections() {
                         }} type="radio" id="345 Louie Rich" name="us senate" value="345 Louie Rich" />
                         <label htmlFor="345 Louie Rich">Louie Rich</label>
                     </div>
-                    <legend>Select a US House</legend>
+                    <legend>Select a US House:</legend>
                     <div>
                         <input onChange={(e) => {
                             setUSHouse(e.target.value)
@@ -144,7 +148,7 @@ export default function testElections() {
                         }} type="radio" id="345 Vilhelmina Lohmeyer" name="us house" value="345 Vilhelmina Lohmeyer" />
                         <label htmlFor="345 Vilhelmina Lohmeyer">Vilhelmina Lohmeyer</label>
                     </div>
-                    <legend>Select a State Senate</legend>
+                    <legend>Select a State Senate:</legend>
                     <div>
                         <input onChange={(e) => {
                             setStateSenate(e.target.value)
@@ -163,7 +167,7 @@ export default function testElections() {
                         }} type="radio" id="345 Nessi Lamball" name="state senate" value="345 Nessi Lamball" />
                         <label htmlFor="345 Nessi Lamball">Nessi Lamball</label>
                     </div>
-                    <legend>Select a State House</legend>
+                    <legend>Select a State House:</legend>
                     <div>
                         <input onChange={(e) => {
                             setStateHouse(e.target.value)
@@ -182,7 +186,7 @@ export default function testElections() {
                         }} type="radio" id="345 Xenia Springall" name="state house" value="345 Xenia Springall" />
                         <label htmlFor="345 Xenia Springall">Xenia Springall</label>
                     </div>
-                    <legend>Select a Congress</legend>
+                    <legend>Select a Congress:</legend>
                     <div>
                         <input onChange={(e) => {
                             setCongress(e.target.value)
@@ -204,7 +208,7 @@ export default function testElections() {
                 </fieldset>
                 <button type="Submit">Submit</button>
             </form>
-        </>
+        </div>
     )
 
 }
