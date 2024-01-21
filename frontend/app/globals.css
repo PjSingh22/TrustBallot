@@ -4,13 +4,42 @@
   box-sizing: border-box;
 }
 
-body {
+a:hover {
+  cursor: pointer;
+}
+
+
+.container {
   height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+  background-color: rgb(99, 156, 205);
 }
 
+
 .nav-bar {
-  width: 100%;
+  width: fit-content;
   height: fit-content;
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
+  align-items: center;
+  font-size: 32px;
+  padding: 20px 10px 10px;
+}
+
+.routes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.routes > * {
+  background-color: white;
+  border-radius: 15px;
+  margin: 10px 5px;
+  padding: 10px 15px;
+  font-size: 20px;
 }

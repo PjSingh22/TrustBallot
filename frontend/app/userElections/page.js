@@ -2,8 +2,17 @@
 import React, { useState } from "react";
 import CA_primary_data from "../sample-test-data/ballotpedia-CA-primary-election-sample";
 import CA_general_data from "../sample-test-data/ballotpedia-CA-general-election-sample";
-import { Radio, RadioGroup, Stack } from '@chakra-ui/react'
 import './userElections.css';
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+} from '@chakra-ui/react'
 
 export default function userElections() {
 

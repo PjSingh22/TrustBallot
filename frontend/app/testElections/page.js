@@ -1,7 +1,16 @@
 "use client"
 import React, { useState } from "react";
-import { Radio, RadioGroup, Stack } from '@chakra-ui/react'
 import './testElections.css';
+import {
+  Menu,
+  MenuButton,
+  MenuList,
+  MenuItem,
+  MenuItemOption,
+  MenuGroup,
+  MenuOptionGroup,
+  MenuDivider,
+} from '@chakra-ui/react'
 
 export default function testElections() {
 
