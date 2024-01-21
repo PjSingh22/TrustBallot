@@ -24,7 +24,6 @@ export default function signUp() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-
   }
 
   return (

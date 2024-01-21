@@ -25,9 +25,9 @@ button[type="submit"] {
 .sign-up-form > .form-container {
   margin: 0 auto;
   border: 1px solid #ccc;
+  background-color: #fff;
   width: 50%;
   padding: 20px;
-  border: 1px solid #ccc;
   border-radius: 5px;
   height: fit-content;
 }
